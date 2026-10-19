@@ -47,3 +47,16 @@ Thumbs.db
 # Replit
 .cache/
 .local/
+
+
+@"
+node_modules/
+.pnpm-store/
+dist/
+build/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+"@ | Set-Content -Encoding utf8 .gitignore
